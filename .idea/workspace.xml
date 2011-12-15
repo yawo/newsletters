@@ -18,6 +18,21 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints>
+      <breakpoint url="file://C:/play/modules/securesocial-0.2.2/app/securesocial/provider/providers/UsernamePasswordProvider.java" line="81" class="securesocial.provider.providers.UsernamePasswordProvider" package="securesocial.provider.providers">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -58,21 +73,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Users.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/Users.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="4" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NLUserServices.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="NLUserServices.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/security/NLUserServices.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="23" selection-start="1439" selection-end="1439" vertical-scroll-proportion="0.0">
+            <state line="36" column="30" selection-start="1182" selection-end="1182" vertical-scroll-proportion="0.17741935">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,28 +84,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.conf" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/conf/application.conf">
+      <file leaf-file-name="SecureSocial.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/play/modules/securesocial-0.2.2/app/controllers/securesocial/SecureSocial.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="218" column="1" selection-start="6614" selection-end="6614" vertical-scroll-proportion="0.04292929">
-              <folding />
+            <state line="75" column="18" selection-start="3150" selection-end="3150" vertical-scroll-proportion="-10.56">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dependencies.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf/dependencies.yml">
+      <file leaf-file-name="SocialUser.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/play/modules/securesocial-0.2.2/app/securesocial/provider/SocialUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="23" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/main.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="58" selection-start="733" selection-end="733" vertical-scroll-proportion="-0.65384614">
+            <state line="63" column="22" selection-start="1729" selection-end="1729" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -110,7 +108,16 @@
       <file leaf-file-name="Activations.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/Activations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="13" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
+            <state line="12" column="13" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="117" column="16" selection-start="4159" selection-end="4159" vertical-scroll-proportion="-6.8846154">
               <folding />
             </state>
           </provider>
@@ -135,12 +142,18 @@
         <option value="$PROJECT_DIR$/app/controllers/Application.java" />
         <option value="$PROJECT_DIR$/app/models/Users.java" />
         <option value="$PROJECT_DIR$/app/models/Activations.java" />
-        <option value="$PROJECT_DIR$/app/security/NLUserServices.java" />
         <option value="$PROJECT_DIR$/app/views/bootstrap.html" />
+        <option value="C:/play/modules/securesocial-0.2.2/app/securesocial/provider/providers/UsernamePasswordProvider.java" />
+        <option value="$PROJECT_DIR$/app/views/main.html" />
         <option value="$PROJECT_DIR$/conf/dependencies.yml" />
+        <option value="$PROJECT_DIR$/conf/routes" />
         <option value="$PROJECT_DIR$/conf/application.conf" />
+        <option value="$PROJECT_DIR$/app/security/NLUserServices.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -207,24 +220,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="newsletters" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newslettersIdea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newsletters" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newsletters" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="conf" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -431,30 +426,30 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="786" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.77070063" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.098726116" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32165605" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19205834" sideWeight="0.67038214" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32961783" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.7308917" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19124797" sideWeight="0.7308917" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26910827" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -513,70 +508,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/NewsLetter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="46" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/play/modules/securesocial-0.2.2/app/controllers/securesocial/SecureSocial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/play/modules/securesocial-0.2.2/app/controllers/securesocial/UsernamePasswordController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="13" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.33159268">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="7" selection-start="127" selection-end="127" vertical-scroll-proportion="0.30050504">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Application/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="84" selection-start="60" selection-end="60" vertical-scroll-proportion="0.12878788">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/play/modules/securesocial-0.2.2/app/securesocial/provider/SocialUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="13" selection-start="2410" selection-end="2410" vertical-scroll-proportion="0.9141414">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/play/modules/securesocial-0.2.2/app/securesocial/provider/DefaultUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="48" selection-start="1300" selection-end="2344" vertical-scroll-proportion="0.9141414">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Activations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Users.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="4" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
@@ -586,47 +517,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/security/NLUserServices.java">
+    <entry file="file://C:/play/modules/securesocial-0.2.2/app/notifiers/securesocial/Mails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="23" selection-start="1439" selection-end="1439" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/defaultmain.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="23" selection-start="517" selection-end="539" vertical-scroll-proportion="-8.5">
+        <state line="34" column="13" selection-start="1094" selection-end="1094" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/bootstrap.html">
+    <entry file="file://C:/play/modules/securesocial-0.2.2/conf/messages">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="16" selection-start="4006" selection-end="4006" vertical-scroll-proportion="-4.576923">
+        <state line="38" column="4" selection-start="1679" selection-end="1679" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/play/modules/securesocial-0.2.2/app/views/securesocial/Mails/sendActivationEmail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/play/modules/securesocial-0.2.2/app/views/securesocial/SecureSocial/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="71" selection-start="575" selection-end="622" vertical-scroll-proportion="0.6666667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Activations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="58" selection-start="733" selection-end="733" vertical-scroll-proportion="-0.65384614">
+        <state line="117" column="16" selection-start="4159" selection-end="4159" vertical-scroll-proportion="-6.8846154">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/conf/dependencies.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="23" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+        <state line="5" column="69" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/routes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="385" selection-end="479" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/conf/application.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="218" column="1" selection-start="6614" selection-end="6614" vertical-scroll-proportion="0.04292929">
+        <state line="253" column="38" selection-start="7850" selection-end="7850" vertical-scroll-proportion="-11.16">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/play/modules/securesocial-0.2.2/app/securesocial/provider/providers/UsernamePasswordProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="22" selection-start="812" selection-end="814" vertical-scroll-proportion="-12.96">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/play/modules/securesocial-0.2.2/app/controllers/securesocial/UsernamePasswordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="33" selection-start="4116" selection-end="4116" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/play/modules/securesocial-0.2.2/app/controllers/securesocial/SecureSocial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="18" selection-start="3150" selection-end="3150" vertical-scroll-proportion="-10.56">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/play/framework/src/play/libs/OAuth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="46" selection-start="808" selection-end="808" vertical-scroll-proportion="0.5483871">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/play/modules/securesocial-0.2.2/app/securesocial/provider/SocialUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="22" selection-start="1729" selection-end="1729" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/security/NLUserServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="30" selection-start="1182" selection-end="1182" vertical-scroll-proportion="0.17741935">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

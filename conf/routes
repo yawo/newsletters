@@ -10,6 +10,6 @@ GET     /favicon.ico                            404
 
 # Map static resources from the /app/public folder to the /public path
 GET     /public/                                staticDir:public
-
+GET     /googlec91f11d97f3f67b2.html            staticFile:/public/googlec91f11d97f3f67b2.html
 # Catch all
 *       /{controller}/{action}                  {controller}.{action}
